@@ -1,0 +1,39 @@
+{
+  "name": "inventorymaster",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JosePuelloCortina/InventoryMaster#readme",
+  "bugs": {
+    "url": "https://github.com/JosePuelloCortina/InventoryMaster/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosePuelloCortina/InventoryMaster.git"
+  },
+  "license": "ISC",
+  "author": "JosePuelloCortina",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.15.3",
+    "tslint": "^5.20.1",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "postgres": "^3.4.5",
+    "typeorm": "^0.3.22"
+  }
+}
